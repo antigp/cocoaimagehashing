@@ -9,8 +9,7 @@ let package = Package(
   targets: [
     .target(
       name: "CocoaImageHashing",
-      path: "CocoaImageHashing",
-      sources: ["."]
+      path: "CocoaImageHashing"
     )
   ]
 )
