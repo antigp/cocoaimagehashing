@@ -4,12 +4,12 @@ import PackageDescription
 let package = Package(
   name: "CocoaImageHashing",
   products: [
-    .library(name: "CocoaImageHashing", type: .static, targets: ["CocoaImageHashing"])
+    .library(name: "CocoaImageHashing", type: .static, targets: ["CocoaImageHashing_target"])
   ],
   targets: [
     .target(
-      name: "CocoaImageHashing",
-      path: "./CocoaImageHashing"
+      name: "CocoaImageHashing_target",
+      path: "CocoaImageHashing"
     )
   ]
 )
